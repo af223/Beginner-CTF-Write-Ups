@@ -10,4 +10,4 @@ Looking at the HTML, we see the line:
 
 `<input type="hidden" name="file" value="password.php">`
 
-This indicates a hidden file by the name of password.php. Adding '/password.php' to the end of our URL takes us to a page with the password: 7559085a.
+This indicates a hidden file named 'password.php'. Adding '/password.php' to the end of the URL takes you to a page with the password: 7559085a.
