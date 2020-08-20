@@ -12,6 +12,7 @@ lists the files of the parent directory.
 The site takes in raw input from the user without cleaning special characters like '<' and '!' so it will execute any SSI commands it receives.
 
 Sources
+: a
 : [Wikipedia entry](https://en.wikipedia.org/wiki/Server_Side_Includes)
 : [OWASP SSI Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
 
@@ -21,4 +22,4 @@ You can use an SSI Injection to find the password. The prompt reveals that the p
 `<!--#exec cmd="ls ../"-->`
 to list all the files in the current directory. The file au12ha39vc.php looks like it could be the password file.
 
-Navigating to that page by adding /au12ha39vc.php to the end of the URL (https://www.hackthissite.org/missions/basic/8/au12ha39vc.php), we find the password: 927cdeea
+Navigating to that page by adding /au12ha39vc.php to the end of the URL in the /basic/8 directory, we find the password: 927cdeea
