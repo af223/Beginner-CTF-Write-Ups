@@ -11,10 +11,11 @@ lists the files of the parent directory.
 
 The site takes in raw input from the user without cleaning special characters like '<' and '!' so it will execute any SSI commands it receives.
 
-Sources
-: a
-: [Wikipedia entry](https://en.wikipedia.org/wiki/Server_Side_Includes)
-: [OWASP SSI Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
+Sources:
+
+  [Wikipedia entry](https://en.wikipedia.org/wiki/Server_Side_Includes)
+
+  [OWASP SSI Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
 
 ---
 
