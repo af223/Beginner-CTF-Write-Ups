@@ -6,7 +6,7 @@ SSI is the language that servers use to execute actions before the user sees the
 `<!--#directive paramter=value parameter=value-->`
 
 For example, the command:
-`<!--#exec cmd="ls .."-->`
+`<!--#exec cmd="ls ../"-->`
 lists the files of the parent directory.
 
 The site takes in raw input from the user without cleaning special characters like '<' and '!' so it will execute any SSI commands it receives.
