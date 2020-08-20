@@ -1,9 +1,16 @@
-# Basic 1
+# Uncle Arnold's Local Band Review
 
-**skill:** Inspect Element
+**goal:**
+  - boost Raging Inferno's rating to the top
+
+**skill:** HTML
 
 ---
 
-Use Inspect Element to see the HTML of the page. The password is written in as a comment.
+The HTML code for the drop down bar is 
+`<option value="1">1</option>`
+depending on the selected option when the vote button is clicked. The number in quotes is the value used to calculate the new weighting.
 
-`<!--the first few levels are extremely easy: password is 50f6d85e-->`
+Change the code to 
+`<option value="100000">1</option>`
+to add a rating of 100000, boosting Raging Inferno's ranking to number one.
