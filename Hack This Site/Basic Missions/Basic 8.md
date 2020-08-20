@@ -19,10 +19,10 @@ Sources:
 
 ---
 
-You can use an SSI Injection to find the password. The prompt reveals that the password is kept in /var/www/hackthissite.org/html/missions/basic/8/. Looking at the URL, you can see that is also the name of your current directory. Testing out a sample entry for the name, we see that Stephanie's PHP file takes us to the /basic/8/tmp directory, but we want the files in the parent directory (/basic/8). 
+You can use an SSI Injection to find the password. The prompt reveals that the password is kept in /var/www/hackthissite.org/html/missions/basic/8/. Looking at the URL, you can see that is also the name of your current directory. Testing out a sample entry for the name, Stephanie's PHP file takes you to the /basic/8/tmp directory, but you want the files in the parent directory (/basic/8). 
 
 In the box to enter your name, enter:
 `<!--#exec cmd="ls ../"-->`
 to list all the files in the parent directory. The file au12ha39vc.php looks like it could be the password file.
 
-Navigating to that page by adding /au12ha39vc.php to the end of the URL in the /basic/8 directory, we find the password: 927cdeea
+Navigating to that page by adding /au12ha39vc.php to the end of the URL in the /basic/8 directory, the password is: 927cdeea
