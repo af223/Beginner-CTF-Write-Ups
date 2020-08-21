@@ -26,4 +26,6 @@ Since 1=1 is always true, the OR statement is always true. Thus, without actuall
 
 ---
 
-Highlighting the whole page reveals a hidden update link. 
+Highlighting the whole page reveals a hidden link called update to a login page. Since you're looking for admin access, you can use 'admin' as the username. For the password, use an SQL injection
+`' OR '1=1'--`
+.
