@@ -20,4 +20,5 @@ The `/secret` directory contains two files: `admin.php` and `admin.bak.php`. 'ad
 
 Going to the `/lib` directory, there's a file called 'hash'. It's a 32-bit ELF file which presumably performs the hashing. 
 The 'message digest' and '10 years out of date' hint from the prompt implies the use of either MD4 or MD5 as the hash.
+
 I have yet to find the password that hashes to 'aaea7dbeea8aa9155a3c0a716ae3969a' so I'll get back to this once I figure out a way.
